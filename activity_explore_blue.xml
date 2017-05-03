@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_background2"
+    android:fitsSystemWindows="true"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ExploreBlue" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:fitsSystemWindows="true"
+        android:text="Auto Bluetooth off is a feature in which your Bluetooth on your device will automatically turns off when it is not Connected to any Other Device.\n\n( i.e. if your Bluetooth is discoverable more than a minute and is not connected to other Bluetooth device,it will be turn off automatically after a minute).\n\nJust you need to Activate this feature from Our App."
+        android:textColor="#b9f6ca"
+        android:textSize="17dp" />
+
+</RelativeLayout>

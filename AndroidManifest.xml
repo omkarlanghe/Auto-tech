@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.autotech"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Condition"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Selection"
+            android:label="@string/title_activity_selection" >
+            <intent-filter>
+                <action android:name="com.example.autotech.SELECTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AutoSilent"
+            android:label="@string/title_activity_auto_silent" >
+        </activity>
+
+        <receiver android:name="com.example.autotech.bluet" >
+            <intent-filter>
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+                <action android:name="android.net.wifi.NETWORK_IDS_CHANGED" />
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+                <action android:name="android.bluetooth.device.action.ACL_DISCONNECTED" />
+                <action android:name="android.net.wifi.p2p.CONNECTION_STATE_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".Broadcast1" >
+        </receiver>
+        <receiver android:name=".Broadcast2" >
+        </receiver>
+        <receiver android:name=".MobileDataBroadcast3" >
+        </receiver>
+        <receiver android:name=".MobileDataBroadcast4" >
+        </receiver>
+
+        <activity
+            android:name=".AutoBluetooth"
+            android:label="@string/title_activity_auto_bluetooth" >
+        </activity>
+        <activity
+            android:name=".AutoWifi"
+            android:label="@string/title_activity_auto_wifi" >
+        </activity>
+        <activity
+            android:name=".AutoBrightness"
+            android:label="@string/title_activity_auto_brightness" >
+        </activity>
+        <activity
+            android:name=".MobileData"
+            android:label="@string/title_activity_mobile_data" >
+        </activity>
+        <activity
+            android:name=".BatteryStatus"
+            android:label="@string/title_activity_battery_status" >
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/title_activity_about_us" >
+        </activity>
+        <activity
+            android:name=".Help"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name=".ExploreNow"
+            android:label="@string/title_activity_explore_now" >
+        </activity>
+        <activity
+            android:name=".ExploreSilent"
+            android:label="@string/title_activity_explore_silent" >
+        </activity>
+        <activity
+            android:name=".ExploreBlue"
+            android:label="@string/title_activity_explore_blue" >
+        </activity>
+        <activity
+            android:name=".ExploreWifi"
+            android:label="@string/title_activity_explore_wifi" >
+        </activity>
+        <activity
+            android:name=".ExploreBright"
+            android:label="@string/title_activity_explore_bright" >
+        </activity>
+        <activity
+            android:name=".ExploreMobile"
+            android:label="@string/title_activity_explore_mobile" >
+        </activity>
+        <activity
+            android:name=".ExploreBattery"
+            android:label="@string/title_activity_explore_battery" >
+        </activity>
+        <activity
+            android:name=".SimpleBrowser"
+            android:label="@string/title_activity_simple_browser" >
+        </activity>
+    </application>
+
+</manifest>
