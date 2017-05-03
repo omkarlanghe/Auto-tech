@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_background2"
+    android:fitsSystemWindows="true"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ExploreMobile" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:gravity="center"
+        android:text="In android smart phones,we need to on/off our mobile data according to our internet usage repeatedly.To make this more easier,user can give this feature a specific timing,so that when user end his/her internet usage and if he/she forgets to turn off his/her mobile data then the MobileData will turn off automatically after it exceeds that user given timing.\n\nUser can also use this feature to turn on Mobile data Automatically by giving StartTime.\n\nTo Deactivate your MobileData set EndTime to Deactivate."
+        android:textColor="#b9f6ca"
+        android:textSize="17dp" />
+
+</RelativeLayout>

@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_background2"
+    android:fitsSystemWindows="true"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ExploreNow" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="563dp"
+            android:fitsSystemWindows="true"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fitsSystemWindows="true"
+                android:gravity="center"
+                android:text="Study our each task in detail by selecting the radiobuttons and get explored"
+                android:textColor="#b9f6ca"
+                android:textSize="17dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/radioButton3"
+                android:layout_below="@+id/radioButton3"
+                android:fitsSystemWindows="true"
+                android:text="@string/explore_to_autobrightness"
+                android:textColor="#ffc107" />
+
+            <RadioButton
+                android:id="@+id/radioButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/radioButton4"
+                android:layout_below="@+id/radioButton4"
+                android:fitsSystemWindows="true"
+                android:text="@string/explore_to_automobiledata"
+                android:textColor="#ffc107" />
+
+            <RadioButton
+                android:id="@+id/radioButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/radioButton5"
+                android:layout_below="@+id/radioButton5"
+                android:fitsSystemWindows="true"
+                android:text="@string/explore_to_batterystatus"
+                android:textColor="#ffc107" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/radioButton2"
+                android:layout_below="@+id/radioButton2"
+                android:fitsSystemWindows="true"
+                android:text="@string/explore_to_autowifi_off"
+                android:textColor="#ffc107" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/radioButton1"
+                android:layout_below="@+id/radioButton1"
+                android:fitsSystemWindows="true"
+                android:text="@string/explore_to_autobluetooth_off"
+                android:textColor="#ffc107" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_below="@+id/textView1"
+                android:layout_marginTop="15dp"
+                android:fitsSystemWindows="true"
+                android:text="1. After installing Autotech app, we enters in to the home screen of the Autotech app.
+\n2. After entering in to the home screen, user enters in to variety of following tasks. These tasks are:-  
+        "
+                android:textColor="#FFFFFF" />
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_below="@+id/textView2"
+                android:fitsSystemWindows="true"
+                android:text="@string/explore_to_autosilent"
+                android:textColor="#ffc107" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/radioButton6"
+                android:layout_below="@+id/radioButton6"
+                android:layout_marginTop="22dp"
+                android:fitsSystemWindows="true"
+                android:text="3. We can edit the following above tasks as per our requirements.
+\n4. After making changes in these tasks we can save these settings and enjoy the device further.
+ 
+        "
+                android:textColor="#FFFFFF" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
