@@ -1,2 +1,2 @@
-# Autotech
-Engineering - 2nd Year - 1st Sem Project
+#Autotech is the android application which deals with various mobile based sevices like bluetooth, wifi, mobile data, system, battery status, brightness.
+#Final year project as a part of diploma cirriculam.
